@@ -1,0 +1,168 @@
+fileVersion: 1
+id: 3215903f-0153-4ebe-b2b8-ef4b7090f970
+name: CUSTOMERS
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: cc0363d2-6b21-43df-8441-fafad00563c6
+          stepCounter: 3215903f-0153-4ebe-b2b8-ef4b7090f970
+        config: {}
+        dataType: VARCHAR(50)
+        defaultValue: ""
+        description: ""
+        name: CustomerID
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f456151b-009c-48b8-a554-ae8bc7e3609f
+          stepCounter: 3215903f-0153-4ebe-b2b8-ef4b7090f970
+        config: {}
+        dataType: VARCHAR(50)
+        defaultValue: ""
+        description: ""
+        name: FirstName
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: edaf2442-3b78-4b49-80f2-bc5fec60cf84
+          stepCounter: 3215903f-0153-4ebe-b2b8-ef4b7090f970
+        config: {}
+        dataType: VARCHAR(50)
+        defaultValue: ""
+        description: ""
+        name: LastName
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 92607e6c-8aa0-4ffe-8964-9858450d81d2
+          stepCounter: 3215903f-0153-4ebe-b2b8-ef4b7090f970
+        config: {}
+        dataType: VARCHAR(50)
+        defaultValue: ""
+        description: ""
+        name: Email
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 213d10ea-c40b-45b8-a514-10e7b5e46dc2
+          stepCounter: 3215903f-0153-4ebe-b2b8-ef4b7090f970
+        config: {}
+        dataType: VARCHAR(50)
+        defaultValue: ""
+        description: ""
+        name: PhoneNumber
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2f4bc58b-c5af-41dc-8adf-92036a45cb24
+          stepCounter: 3215903f-0153-4ebe-b2b8-ef4b7090f970
+        config: {}
+        dataType: VARCHAR(50)
+        defaultValue: ""
+        description: ""
+        name: JoinDate
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e1fe236f-34d1-44c2-bfd7-6c08cf15aa98
+          stepCounter: 3215903f-0153-4ebe-b2b8-ef4b7090f970
+        config: {}
+        dataType: VARCHAR(50)
+        defaultValue: ""
+        description: ""
+        name: Status
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 69fb3743-fc24-480f-a774-9b0d2ca9e2fa
+          stepCounter: 3215903f-0153-4ebe-b2b8-ef4b7090f970
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: LoyaltyPoints
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: CUSTOMERS
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

@@ -1,0 +1,6 @@
+excludeSelector: ""
+fileVersion: 1
+id: "18"
+includeSelector: "{ location: SRC name: DIM_PRODUCT_SALES } OR { location: SRC name: PRODUCT_SALES } OR { location: SRC name: STG_PRODUCT_SALES }"
+name: DQLABS_QA_NEW_CUSTOMER
+type: Job
