@@ -1,0 +1,111 @@
+fileVersion: 1
+id: dd26c0e6-efab-4dd0-8a0d-d172805f272f
+name: CUSTOMER_ORDERS
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8422b169-595a-4310-92ee-02d75eca9a39
+          stepCounter: dd26c0e6-efab-4dd0-8a0d-d172805f272f
+        config: {}
+        dataType: VARCHAR(50)
+        defaultValue: ""
+        description: ""
+        name: OrderID
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c835a499-0315-491f-9ede-89c29ef362b3
+          stepCounter: dd26c0e6-efab-4dd0-8a0d-d172805f272f
+        config: {}
+        dataType: VARCHAR(50)
+        defaultValue: ""
+        description: ""
+        name: CustomerID
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: dcd9781c-e540-4813-a6fa-b5cd31d75b94
+          stepCounter: dd26c0e6-efab-4dd0-8a0d-d172805f272f
+        config: {}
+        dataType: VARCHAR(50)
+        defaultValue: ""
+        description: ""
+        name: OrderDate
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 49aab2b5-fde5-4e65-95bd-d16d7340c09d
+          stepCounter: dd26c0e6-efab-4dd0-8a0d-d172805f272f
+        config: {}
+        dataType: VARCHAR(50)
+        defaultValue: ""
+        description: ""
+        name: OrderStatus
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ea1240f6-16d3-4646-87d9-f9dd0fa2769a
+          stepCounter: dd26c0e6-efab-4dd0-8a0d-d172805f272f
+        config: {}
+        dataType: FLOAT
+        defaultValue: ""
+        description: ""
+        name: TotalAmount
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: CUSTOMER_ORDERS
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

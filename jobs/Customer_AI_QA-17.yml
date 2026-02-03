@@ -1,0 +1,6 @@
+excludeSelector: ""
+fileVersion: 1
+id: "17"
+includeSelector: "{ location: TARGET name: DIM_PRODUCT_SALES } OR { location: SRC name: CUSTOMER_ORDERS } OR { location: SRC name: PRODUCT_SALES } OR { location: TARGET name: STG_PRODUCT_SALES }"
+name: Customer_AI_QA
+type: Job
