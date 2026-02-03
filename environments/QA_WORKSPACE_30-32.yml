@@ -1,5 +1,11 @@
 fileVersion: 1
 id: "32"
-mappingDefinitions: {}
+mappingDefinitions:
+  SRC:
+    database: DQLABS_QA
+    schema: STAGING
+  TARGET:
+    database: DQLABS_QA
+    schema: REPORTING
 name: QA_WORKSPACE_3.0
 type: Environment
